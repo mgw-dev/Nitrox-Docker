@@ -13,6 +13,6 @@ services:
     environment:
       - "GROUP_ID=1000" # The ID of the group to run Nitrox as (default=1000)
       - "USER_ID=1000" # The ID of the user to run Nitrox as (default=1000)
-      - "TIMEZONE=Etc/GMT" # The timezone to run Nitrox with (default=Etc/GMT)
+      - "TIMEZONE=Etc/MST" # The timezone to run Nitrox with (default=Etc/GMT)
 volumes:
   nitrox-data: 
